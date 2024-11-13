@@ -165,7 +165,6 @@ summary = model.summary()
 # Conducting statistical tests 
 age_walking_speed_corr, age_walking_speed_p = stats.pearsonr(data['age'], data['walking_speed'])
 
-# Save regression results (coefficients, confidence intervals, etc.) if needed
 regression_results = {
     'coefficients': coefficients,
     'confidence_intervals': conf_intervals,
