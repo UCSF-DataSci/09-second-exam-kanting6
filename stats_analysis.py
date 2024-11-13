@@ -162,7 +162,7 @@ summary = model.summary()
 # formula_confounded = 'walking_speed ~ age * education_level_code + gender'
 # model_confounded = smf.ols(formula_confounded, data=data).fit()
 
-# Conducting statistical tests (e.g., Pearson correlation for age and walking speed)
+# Conducting statistical tests 
 age_walking_speed_corr, age_walking_speed_p = stats.pearsonr(data['age'], data['walking_speed'])
 
 # Save regression results (coefficients, confidence intervals, etc.) if needed
